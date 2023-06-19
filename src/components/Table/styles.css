@@ -1,0 +1,59 @@
+.tableFilters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px
+}
+
+.tableFiltersLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 50%
+}
+
+.tableHead {
+    display: flex;
+    background-color: #efefef;
+    border-bottom: 3px solid #535bf2;
+    padding-left: 25px
+}
+
+.tableHeadColumn {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+}
+
+
+.tableRow {
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    border-bottom: 1px solid #535bf2;
+    box-sizing: border-box;
+}
+
+.tableColumn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    height: 80px;
+    padding: 0 4px;
+}
+
+.childHeadRow{
+    border-bottom: 2px solid #535bf2;
+    box-sizing: border-box;
+}
+
+.expandButtonWrapper {
+    width: 24px;
+    height: 24px
+}
+
+.expanded {
+    background-color: #efefef;
+}
+
